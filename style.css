@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #F2A900;
+}
+
+.timeline {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #007BFF;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-event {
+    padding: 10px;
+    position: relative;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.timeline-event.left {
+    left: 0;
+}
+
+.timeline-event.right {
+    left: 50%;
+}
+
+.timeline-event::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border: 2px solid #5B2F00;
+    border-radius: 50%;
+    top: 15px;
+    z-index: 1;
+}
+
+.timeline-event.left::before {
+    right: -6px;
+}
+
+.timeline-event.right::before {
+    left: -6px;
+}
+
+.website-title {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 72px;
+    font-style: normal;
+    text-align: center;
+}
+
+.website-description {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 48px;
+    font-style: normal;
+    text-align: center;
+}
