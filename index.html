@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Bitcoin Odyssey</title>
+    <!-- Favicon -->
+    <link id="favicon" rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 <body>
-    <h1 class="website-title">Bitcoin Odyssey</h1>
+    <!-- Title & Cover -->
+    <div class="change-language-container">
+        <button onclick="loadTimeline('en')">🇬🇧</button>
+        <button onclick="loadTimeline('th')">🇹🇭</button>
+    </div>
+    <br>
+    <div class="banner-container">
+        <img id="banner" src="images/banner_en.png" alt="Bitcoin Odyssey" class="banner">
+    </div>
+    <!-- Timeline -->
     <h3 class="website-description">History of Bitcoin</h3>
     <div class="timeline" id="timeline"></div>
     <script src="script.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>You can contribute <a href="https://github.com/mikkipastel/bitcoin-odyssey" target="_blank">this project</a>.</p>
+    </footer>
 </body>
 </html>

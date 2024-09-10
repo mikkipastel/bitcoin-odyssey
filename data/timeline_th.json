@@ -1,0 +1,94 @@
+{
+    "events": [
+        {
+            "date": "2008-10-31",
+            "title": "Bitcoin whitepaper ถูกปล่อยครั้งแรก",
+            "description": "Satoshi Nakamoto publishes the Bitcoin whitepaper titled \"Bitcoin: A Peer-to-Peer Electronic Cash System\" on a cryptography mailing list."
+          },
+          {
+            "date": "2009-01-03",
+            "title": "Genesis block mined",
+            "description": "The Bitcoin network is launched with the mining of the first block, known as the \"genesis block\", which contained a reward of 50 bitcoins."
+          },
+          {
+            "date": "2010-05-22",
+            "title": "First real-world transaction",
+            "description": "Programmer Laszlo Hanyecz pays 10,000 bitcoins for two pizzas, marking Bitcoin's first known purchase of a tangible good."
+          },
+          {
+            "date": "2010-07",
+            "title": "Bitcoin trading begins",
+            "description": "Bitcoin begins trading on exchanges, with an initial price of around $0.06."
+          },
+          {
+            "date": "2011",
+            "title": "Bitcoin reaches $1",
+            "description": "Bitcoin's price reaches $1 for the first time."
+          },
+          {
+            "date": "2013-11",
+            "title": "Bitcoin surges past $1,000",
+            "description": "Bitcoin's price surges to over $1,000, gaining significant media attention and public interest."
+          },
+          {
+            "date": "2014-02",
+            "title": "Mt. Gox exchange files for bankruptcy",
+            "description": "The Mt. Gox exchange, which handled around 70% of all Bitcoin transactions, files for bankruptcy after losing approximately 850,000 bitcoins due to hacking."
+          },
+          {
+            "date": "2015",
+            "title": "Bitcoin stabilizes after bear market",
+            "description": "Bitcoin begins to stabilize after a prolonged bear market, with gradual price increases."
+          },
+          {
+            "date": "2016",
+            "title": "Bitcoin's price reaches $900",
+            "description": "Bitcoin's price climbs to over $900 by the end of the year."
+          },
+          {
+            "date": "2017-12",
+            "title": "Bitcoin reaches $20,000",
+            "description": "Bitcoin reaches an all-time high of nearly $20,000, driven by widespread speculation and media coverage."
+          },
+          {
+            "date": "2018-01",
+            "title": "South Korea introduces regulations",
+            "description": "South Korea introduces regulations requiring bitcoin traders to reveal their identities, impacting market sentiment."
+          },
+          {
+            "date": "2018-12",
+            "title": "Bitcoin closes at $3,709",
+            "description": "Bitcoin closes the year at approximately $3,709, down significantly from its previous highs."
+          },
+          {
+            "date": "2020",
+            "title": "Bitcoin's price reaches $28,949",
+            "description": "Bitcoin's price begins to recover, closing the year at $28,949, bolstered by institutional investments and the economic impact of the COVID-19 pandemic."
+          },
+          {
+            "date": "2021-04-14",
+            "title": "Bitcoin reaches $64,895",
+            "description": "Bitcoin reaches a new all-time high of $64,895."
+          },
+          {
+            "date": "2021-11-10",
+            "title": "Bitcoin hits $69,000",
+            "description": "Bitcoin hits another peak at $69,000 amid growing institutional interest and the launch of Bitcoin ETFs."
+          },
+          {
+            "date": "2022-06",
+            "title": "Bitcoin falls below $20,000",
+            "description": "Bitcoin's price falls below $20,000 for the first time since 2020, reflecting broader market downturns and economic concerns."
+          },
+          {
+            "date": "2023",
+            "title": "Bitcoin recovers to $42,258",
+            "description": "Bitcoin opens at $16,530 and rises consistently throughout the year, ending at approximately $42,258."
+          },
+          {
+            "date": "2024-03-14",
+            "title": "Bitcoin reaches $75,830",
+            "description": "Bitcoin reaches a new all-time high of $75,830, reflecting renewed investor confidence and market dynamics."
+          }
+    ]
+}
