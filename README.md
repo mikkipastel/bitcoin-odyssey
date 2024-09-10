@@ -27,14 +27,14 @@ This project submit in ["Thailand Bitcoin Conference"](https://geyser.fund/grant
 
 ![Website](/images/github_banner.png)
 
-[x] Submit idea at [Gayser](https://geyser.fund/grants/thailandbitcoinconference)
-[x] Design logo and banner
-[x] Implement sample website with Bitcoin Timeline
-[x] Switch EN and TH language
-[ ] List Bitcoin history in json file for EN and TH
-[x] Deploy website to Github Pages
-[ ] Content for beginner user
-[ ] Pull request system before merge to main branch
+- [x] Submit idea at [Gayser](https://geyser.fund/grants/thailandbitcoinconference)
+- [x] Design logo and banner
+- [x] Implement sample website with Bitcoin Timeline
+- [x] Switch EN and TH language
+- [ ] List Bitcoin history in json file for EN and TH
+- [x] Deploy website to Github Pages
+- [ ] Content for beginner user
+- [ ] Pull request system before merge to main branch
 
 ## How to contribute
 - fork this project
@@ -62,14 +62,14 @@ for other, I will update it.
 
 ![Website](/images/github_banner.png)
 
-[x] ส่งไอเดียที่ [Gayser](https://geyser.fund/grants/thailandbitcoinconference)
-[x] ออกแบบ logo และ banner
-[x] สร้าง sample website สำหรับแสดง Bitcoin Timeline
-[x] ปุ่มสลับภาษาอังกฤษ และไทย
-[ ] ทำไฟล์ json ที่ของ Bitcoin history ทั้งภาษาอังกฤษ และไทย
-[x] Deploy website ไปที่ Github Pages
-[ ] Content สำหรับ beginner user
-[ ] ระบบ Pull request ก่อน merge เข้า branch main
+- [x] ส่งไอเดียที่ [Gayser](https://geyser.fund/grants/thailandbitcoinconference)
+- [x] ออกแบบ logo และ banner
+- [x] สร้าง sample website สำหรับแสดง Bitcoin Timeline
+- [x] ปุ่มสลับภาษาอังกฤษ และไทย
+- [ ] ทำไฟล์ json ที่ของ Bitcoin history ทั้งภาษาอังกฤษ และไทย
+- [x] Deploy website ไปที่ Github Pages
+- [ ] Content สำหรับ beginner user
+- [ ] ระบบ Pull request ก่อน merge เข้า branch main
 
 ## How to contribute
 - ทำการ fork project นี้
