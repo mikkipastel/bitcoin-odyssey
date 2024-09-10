@@ -6,6 +6,10 @@ function loadTimeline(language) {
     // choose banner file
     const banner = document.getElementById("banner");
     banner.src = language === 'th' ? 'images/banner_th.png' : 'images/banner_en.png';
+
+    // change title
+    const title = document.getElementById("timeline-title")
+    title.innerHTML = language === 'th' ? "กาลเวลาของ Bitcoin" : 'Timeline of Bitcoin';
     
     // choose json file
     const file = language === 'th' ? 'data/timeline_th.json' : 'data/timeline_en.json';
