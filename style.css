@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #fd9e59;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* Timeline */
@@ -88,6 +91,7 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .banner {
