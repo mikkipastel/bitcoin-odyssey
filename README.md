@@ -7,7 +7,7 @@
 *for Thai, read below*
 
 ### progress
-- 9 Sep 2024: create smple website for proof-of-concept to show Bitcoin timeline
+- 9 Sep 2024: create sample website for proof-of-concept to show Bitcoin timeline
 - 10 Sep 2024: add logo & banner, adjust style, switch language for show in EN and TH
 ** Data in this website from Perplexity AI, I will re-write and adjust it.
 
