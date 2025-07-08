@@ -1,0 +1,126 @@
+[
+  {
+    "year": 2011,
+    "price": 5,
+    "key_price_description": {
+      "th": "ราคาเท่ากับดอลลาร์สหรัฐฯ",
+      "en": "Parity with USD"
+    }
+  },
+  {
+    "year": 2012,
+    "price": 13,
+    "key_price_description": {
+      "th": "ก่อน Halving ครั้งที่ 1",
+      "en": "Pre-1st Halving"
+    }
+  },
+  {
+    "year": 2013,
+    "price": 800,
+    "key_price_description": {
+      "th": "พุ่งทะลุ $1,000 ครั้งแรก",
+      "en": "First surge past $1,000"
+    }
+  },
+  {
+    "year": 2014,
+    "price": 300,
+    "key_price_description": {
+      "th": "หลังการล่มสลายของ Mt. Gox",
+      "en": "Post Mt. Gox collapse"
+    }
+  },
+  {
+    "year": 2015,
+    "price": 250,
+    "key_price_description": {
+      "th": "ช่วงตลาดหมี",
+      "en": "Bear market period"
+    }
+  },
+  {
+    "year": 2016,
+    "price": 700,
+    "key_price_description": {
+      "th": "ก่อน Halving ครั้งที่ 2",
+      "en": "Pre-2nd Halving"
+    },
+    "source": {
+      "th": "ข้อมูลประวัติศาสตร์",
+      "en": "Historical Data"
+    }
+  },
+  {
+    "year": 2017,
+    "price": 15000,
+    "key_price_description": {
+      "th": "ตลาดกระทิงปี 2017",
+      "en": "2017 Bull Run peak"
+    }
+  },
+  {
+    "year": 2018,
+    "price": 3500,
+    "key_price_description": {
+      "th": "ช่วง Crypto Winter",
+      "en": "Crypto Winter low"
+    }
+  },
+  {
+    "year": 2019,
+    "price": 7000,
+    "key_price_description": {
+      "th": "เริ่มฟื้นตัว",
+      "en": "Beginning of recovery"
+    }
+  },
+  {
+    "year": 2020,
+    "price": 25000,
+    "key_price_description": {
+      "th": "หลัง Halving ครั้งที่ 3",
+      "en": "Post-3rd Halving momentum"
+    }
+  },
+  {
+    "year": 2021,
+    "price": 55000,
+    "key_price_description": {
+      "th": "ใกล้ ATH $69k",
+      "en": "Near $69k ATH"
+    }
+  },
+  {
+    "year": 2022,
+    "price": 20000,
+    "key_price_description": {
+      "th": "ตลาดหมี",
+      "en": "Bear market"
+    }
+  },
+  {
+    "year": 2023,
+    "price": 35000,
+    "key_price_description": {
+      "th": "เริ่มฟื้นตัวจากตลาดหมี",
+      "en": "Recovery from bear market"
+    }
+  },
+  {
+    "year": 2024,
+    "price": 65000,
+    "key_price_description": {
+      "th": "หลัง Halving ครั้งที่ 4 และ ETF",
+      "en": "Post-4th Halving & ETF approvals"
+    }
+  },
+  {
+    "year": 2025,
+    "price": 100000,
+    "key_price_description": {
+      "th": "คาดการณ์การเติบโตต่อเนื่อง",
+      "en": "Hypothetical continued growth"
+    }
+  }
+]

@@ -1,0 +1,235 @@
+[
+  {
+    "date": "2008-10-31",
+    "type": "milestone",
+    "title": {
+      "th": "เผยแพร่ Bitcoin Whitepaper",
+      "en": "Bitcoin Whitepaper Published"
+    },
+    "description": {
+      "th": "บุคคลลึกลับนาม Satoshi Nakamoto เผยแพร่เอกสาร \"Bitcoin: A Peer-to-Peer Electronic Cash System\" ซึ่งเป็นพิมพ์เขียวของสกุลเงินดิจิทัลแบบกระจายอำนาจ",
+      "en": "The mysterious Satoshi Nakamoto publishes \"Bitcoin: A Peer-to-Peer Electronic Cash System,\" the blueprint for a decentralized digital currency."
+    }
+  },
+  {
+    "date": "2009-01-03",
+    "type": "milestone",
+    "title": {
+      "th": "Genesis Block ถูกสร้างขึ้น",
+      "en": "The Genesis Block is Mined"
+    },
+    "description": {
+      "th": "Satoshi ขุดบล็อกแรกของ Bitcoin พร้อมฝังข้อความ \"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks\" เป็นการเปิดตัวเครือข่ายอย่างเป็นทางการ",
+      "en": "Satoshi mines the first block, embedding the text \"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks,\" officially launching the network."
+    }
+  },
+  {
+    "date": "2009-01-12",
+    "type": "milestone",
+    "title": {
+      "th": "ธุรกรรม Bitcoin ครั้งแรก",
+      "en": "First Bitcoin Transaction"
+    },
+    "description": {
+      "th": "Satoshi Nakamoto ส่ง 10 BTC ให้กับ Hal Finney ซึ่งเป็นการพิสูจน์ว่าเครือข่ายสามารถใช้งานได้จริงในการโอนมูลค่าระหว่างบุคคล",
+      "en": "Satoshi Nakamoto sends 10 BTC to Hal Finney, proving the concept of a peer-to-peer digital cash transfer."
+    }
+  },
+  {
+    "date": "2010-05-22",
+    "type": "adoption",
+    "title": {
+      "th": "วัน Bitcoin Pizza Day",
+      "en": "Bitcoin Pizza Day"
+    },
+    "description": {
+      "th": "Laszlo Hanyecz จ่าย 10,000 BTC เพื่อซื้อพิซซ่าสองถาด ถือเป็นการใช้ Bitcoin ซื้อสินค้าในโลกจริงครั้งแรกที่ได้รับการบันทึกไว้",
+      "en": "Laszlo Hanyecz pays 10,000 BTC for two pizzas, marking the first documented real-world commercial transaction using Bitcoin."
+    }
+  },
+  {
+    "date": "2011-04-01",
+    "type": "ath",
+    "title": {
+      "th": "ราคาเท่ากับดอลลาร์สหรัฐ",
+      "en": "Parity with the US Dollar"
+    },
+    "description": {
+      "th": "เป็นครั้งแรกที่ราคาของ 1 BTC มีมูลค่าเท่ากับ 1 ดอลลาร์สหรัฐ ซึ่งเป็นก้าวสำคัญแรกในการยอมรับมูลค่า",
+      "en": "For the first time, the price of 1 BTC reaches parity with $1 USD, a major early milestone in value recognition."
+    },
+    "price": 1
+  },
+  {
+    "date": "2012-11-28",
+    "type": "halving",
+    "title": {
+      "th": "Bitcoin Halving ครั้งที่ 1",
+      "en": "First Bitcoin Halving"
+    },
+    "description": {
+      "th": "รางวัลบล็อกลดลงจาก 50 BTC เหลือ 25 BTC เป็นการเริ่มต้นกลไกการลดอุปทานที่ตั้งโปรแกรมไว้ ซึ่งเกิดขึ้นทุกๆ 210,000 บล็อก",
+      "en": "The block reward is reduced from 50 BTC to 25 BTC, initiating the programmed supply reduction mechanism that occurs every 210,000 blocks."
+    }
+  },
+  {
+    "date": "2013-11-29",
+    "type": "ath",
+    "title": {
+      "th": "ราคาพุ่งทะลุ $1,000",
+      "en": "Price Surpasses $1,000"
+    },
+    "description": {
+      "th": "Bitcoin ได้รับความสนใจในวงกว้างเป็นครั้งแรก ทำให้ราคาพุ่งสูงขึ้นอย่างรวดเร็วและทะลุหลักพันดอลลาร์เป็นครั้งแรก",
+      "en": "Bitcoin captures mainstream attention, leading to a massive price surge that crosses the $1,000 mark for the first time."
+    },
+    "price": 1000
+  },
+  {
+    "date": "2014-02-28",
+    "type": "crisis",
+    "title": {
+      "th": "การล่มสลายของ Mt. Gox",
+      "en": "The Collapse of Mt. Gox"
+    },
+    "description": {
+      "th": "ตลาดแลกเปลี่ยนที่ใหญ่ที่สุดในขณะนั้นประกาศล้มละลายหลังจากการแฮ็กครั้งใหญ่ ทำให้ผู้ใช้สูญเสีย Bitcoin หลายแสนเหรียญและราคาตกต่ำครั้งใหญ่",
+      "en": "The world's largest Bitcoin exchange at the time files for bankruptcy after a massive hack, resulting in huge user losses and a major price crash."
+    }
+  },
+  {
+    "date": "2016-07-09",
+    "type": "halving",
+    "title": {
+      "th": "Bitcoin Halving ครั้งที่ 2",
+      "en": "Second Bitcoin Halving"
+    },
+    "description": {
+      "th": "รางวัลบล็อกลดลงอีกครั้งจาก 25 BTC เหลือ 12.5 BTC ซึ่งช่วยเสริมความหายากของสินทรัพย์และเป็นรากฐานสำหรับตลาดกระทิงรอบถัดไป",
+      "en": "The block reward is again reduced, from 25 BTC to 12.5 BTC, further tightening the asset's scarcity and setting the stage for the next bull market."
+    }
+  },
+  {
+    "date": "2017-08-01",
+    "type": "fork",
+    "title": {
+      "th": "Hard Fork ของ Bitcoin Cash (BCH)",
+      "en": "Bitcoin Cash (BCH) Hard Fork"
+    },
+    "description": {
+      "th": "ความขัดแย้งเรื่องการปรับขนาด (Scaling) นำไปสู่การ Hard Fork สร้าง Bitcoin Cash (BCH) ซึ่งมีขนาดบล็อกที่ใหญ่กว่า",
+      "en": "Disagreements over how to scale the network lead to a hard fork, creating Bitcoin Cash (BCH) with a larger block size."
+    }
+  },
+  {
+    "date": "2017-12-17",
+    "type": "ath",
+    "title": {
+      "th": "ตลาดกระทิงปี 2017 - เกือบ $20,000",
+      "en": "The 2017 Bull Run - Nearly $20,000"
+    },
+    "description": {
+      "th": "Bitcoin เข้าสู่กระแสหลักอย่างเต็มตัวด้วยราคาที่พุ่งสูงขึ้นเกือบถึง 20,000 ดอลลาร์สหรัฐ ดึงดูดนักลงทุนรายย่อยจำนวนมหาศาล",
+      "en": "Bitcoin explodes into the mainstream consciousness with a parabolic price run to nearly $20,000, attracting a massive wave of retail investors."
+    },
+    "price": 20000
+  },
+  {
+    "date": "2018-12-15",
+    "type": "crisis",
+    "title": {
+      "th": "Crypto Winter",
+      "en": "Crypto Winter"
+    },
+    "description": {
+      "th": "หลังจากจุดสูงสุดในปี 2017 ตลาดได้เข้าสู่ช่วงตลาดหมีที่ยาวนาน โดยราคา Bitcoin ลดลงกว่า 80% จากจุดสูงสุด",
+      "en": "Following the 2017 peak, the market enters a prolonged bear market, with the price of Bitcoin falling over 80% from its all-time high."
+    }
+  },
+  {
+    "date": "2020-05-11",
+    "type": "halving",
+    "title": {
+      "th": "Bitcoin Halving ครั้งที่ 3",
+      "en": "Third Bitcoin Halving"
+    },
+    "description": {
+      "th": "รางวัลบล็อกลดลงจาก 12.5 BTC เหลือ 6.25 BTC ซึ่งเกิดขึ้นท่ามกลางการยอมรับจากสถาบันการเงินที่เพิ่มขึ้น",
+      "en": "The block reward is reduced from 12.5 BTC to 6.25 BTC, occurring amidst growing institutional interest and adoption."
+    }
+  },
+  {
+    "date": "2021-06-09",
+    "type": "adoption",
+    "title": {
+      "th": "เอลซัลวาดอร์ยอมรับ Bitcoin",
+      "en": "El Salvador Adopts Bitcoin"
+    },
+    "description": {
+      "th": "เอลซัลวาดอร์กลายเป็นประเทศแรกในโลกที่ยอมรับ Bitcoin เป็นเงินที่ถูกกฎหมาย ถือเป็นก้าวสำคัญของการยอมรับในระดับประเทศ",
+      "en": "El Salvador becomes the first country in the world to adopt Bitcoin as legal tender, a landmark moment for nation-state adoption."
+    }
+  },
+  {
+    "date": "2021-11-10",
+    "type": "ath",
+    "title": {
+      "th": "All-Time High ที่ $69,000",
+      "en": "All-Time High at $69,000"
+    },
+    "description": {
+      "th": "ในช่วงที่ตลาดคึกคักและการยอมรับจากสถาบันยังคงดำเนินต่อไป Bitcoin ได้สร้างราคาสูงสุดตลอดกาลใหม่ที่ประมาณ 69,000 ดอลลาร์สหรัฐ",
+      "en": "Amidst a buzzing market and continued institutional adoption, Bitcoin sets a new all-time high of approximately $69,000."
+    },
+    "price": 69000
+  },
+  {
+    "date": "2021-11-14",
+    "type": "upgrade",
+    "title": {
+      "th": "การอัปเกรด Taproot",
+      "en": "Taproot Upgrade Activated"
+    },
+    "description": {
+      "th": "การอัปเกรดที่สำคัญซึ่งช่วยเพิ่มความเป็นส่วนตัว ประสิทธิภาพ และความสามารถด้านสัญญาอัจฉริยะให้กับเครือข่าย Bitcoin",
+      "en": "A major upgrade is activated, enhancing privacy, efficiency, and smart contract capabilities on the Bitcoin network."
+    }
+  },
+  {
+    "date": "2024-01-10",
+    "type": "adoption",
+    "title": {
+      "th": "อนุมัติ Bitcoin Spot ETF ในสหรัฐฯ",
+      "en": "US Spot Bitcoin ETFs Approved"
+    },
+    "description": {
+      "th": "ก.ล.ต. สหรัฐฯ อนุมัติกองทุน Bitcoin spot ETF หลายกองทุน ซึ่งเปิดประตูให้นักลงทุนสถาบันและรายย่อยเข้าถึง Bitcoin ได้ง่ายขึ้นผ่านตลาดแบบดั้งเดิม",
+      "en": "The U.S. SEC approves multiple spot Bitcoin ETFs, opening the floodgates for institutional and retail investors to gain exposure through traditional markets."
+    }
+  },
+  {
+    "date": "2024-04-20",
+    "type": "halving",
+    "title": {
+      "th": "Bitcoin Halving ครั้งที่ 4",
+      "en": "Fourth Bitcoin Halving"
+    },
+    "description": {
+      "th": "รางวัลบล็อกลดลงเหลือ 3.125 BTC ทำให้อัตราเงินเฟ้อของ Bitcoin ต่ำกว่าทองคำ และตอกย้ำสถานะในฐานะสินทรัพย์ที่หายากอย่างยิ่ง",
+      "en": "The block reward drops to 3.125 BTC, pushing Bitcoin's inflation rate below that of gold and solidifying its status as an ultra-scarce asset."
+    }
+  },
+  {
+    "date": "2025-03-14",
+    "type": "ath",
+    "title": {
+      "th": "All-Time High ที่ $73,750 (ข้อมูลสมมติ)",
+      "en": "All-Time High at $73,750 (Hypothetical)"
+    },
+    "description": {
+      "th": "จากแรงหนุนของกระแส ETF และหลังเหตุการณ์ Halving, Bitcoin ได้สร้างจุดสูงสุดใหม่ในปี 2025 ซึ่งแสดงให้เห็นถึงความเชื่อมั่นของตลาดที่แข็งแกร่ง (ข้อมูลนี้เป็นข้อมูลสมมติจากแนวโน้มในอดีต)",
+      "en": "Driven by ETF inflows and post-halving momentum, Bitcoin establishes a new peak in 2025, demonstrating strong market confidence. (Note: Data is hypothetical based on historical trends)"
+    },
+    "price": 73750
+  }
+]
