@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function loadTimeline(language) {
     // choose banner file
     const banner = document.getElementById("banner");
-    banner.src = language === 'th' ? 'images/banner_th.png' : 'images/banner_en.png';
+    banner.src = language === 'th' ? 'images/banner_th.webp' : 'images/banner_en.webp';
 
     // change title
     const title = document.getElementById("timeline-title")
