@@ -1,124 +1,48 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Sarabun', 'Inter', sans-serif;
     background-color: #fd9e59;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    color: #3D3D3D;
 }
-
-/* Timeline */
-.timeline {
-    position: relative;
-    max-width: 75%;
-    margin: 0 auto;
+.font-en { font-family: 'Inter', sans-serif; }
+.font-th { font-family: 'Sarabun', sans-serif; }
+.timeline-item {
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
-
-/* Timeline Line */
-.timeline::after {
+.timeline-item.filtered-out {
+    opacity: 0.2;
+    transform: scale(0.95);
+}
+.timeline-line::before {
     content: '';
     position: absolute;
-    width: 6px;
-    background-color: #5B2F00;
     top: 0;
-    bottom: 0;
-    left: 40px;
-    margin-left: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 100%;
+    background-color: #EAE6E1;
+    z-index: -1;
 }
-
-/* Timeline Content */
-.timeline-event {
-    padding: 10px;
+.timeline-point {
+    background-color: #FDFCFB;
+    border: 3px solid #E59500;
+}
+.btn-filter.active {
+    background-color: #E59500;
+    color: #FFFFFF;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.chart-container {
     position: relative;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: 1px solid #ddd;
-    border-radius: 4px;
     width: 100%;
-    margin-bottom: 100px;
-    left: 60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    max-height: 400px;
 }
-
-/* Timeline Point */
-.timeline-event::before {
-    content: '';
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    background-color: #F2A900;
-    border: 2px solid #5B2F00;
-    border-radius: 50%;
-    top: 15px;
-    left: -30px;
-    z-index: 1;
-}
-
-/* Text */
-.website-title {
-    font-family: "Noto Sans Thai Looped", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-size: 72px;
-    font-style: normal;
-    text-align: center;
-}
-
-.website-description {
-    font-family: "Noto Sans Thai Looped", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 48px;
-    font-style: normal;
-    text-align: start;
-    padding: 20px;
-}
-
-/* Change Language Button */
-button {
-    margin: 8px;
-    padding: 8px 16px;
-    font-size: 24px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    background-color: transparent;
-}
-
-button:hover {
-    background-color: #F2A900;
-}
-
-/* Banner */
-.banner-container {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.banner {
-    width: 70%;
-    height: auto;
-}
-
-.change-language-container {
-    display: flex;
-    justify-content: end;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #f8f8f8;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-.footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.footer a:hover {
-    text-decoration: underline;
+@media (min-width: 768px) {
+    .chart-container {
+        height: 400px;
+    }
 }
