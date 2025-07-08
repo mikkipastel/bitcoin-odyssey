@@ -4,30 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Bitcoin Odyssey</title>
+    <title>Bitcoin Odyssey | Bitcoin History Timeline</title>
     <!-- Favicon -->
     <link id="favicon" rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Style -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-<body>
-    <!-- Title & Cover -->
-    <div class="change-language-container">
-        <button onclick="loadTimeline('en')">🇬🇧</button>
-        <button onclick="loadTimeline('th')">🇹🇭</button>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="antialiased">
+    <!-- Banner Section -->
+    <div class="banner-container w-full max-w-7xl mx-auto mb-8 md:mb-12 overflow-hidden">
+        <img id="banner" src="images/banner_en.webp" alt="Bitcoin Odyssey Banner" class="w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/1200x200/EAE6E1/3D3D3D?text=Bitcoin+History+Banner';">
     </div>
-    <br>
-    <div class="banner-container">
-        <img id="banner" src="images/banner_en.webp" alt="Bitcoin Odyssey" class="banner">
+
+    <div id="app" class="container mx-auto p-4 md:p-8 max-w-7xl">
+
+        <!-- Header -->
+        <header class="text-center mb-8 md:mb-12">
+            <div class="flex justify-center items-center mb-4">
+                <span class="text-4xl mr-3">₿</span>
+                <h1 data-key="main_title" class="text-3xl md:text-5xl font-bold text-gray-800"></h1>
+            </div>
+            <p data-key="main_subtitle" class="text-lg md:text-xl text-gray-500 max-w-3xl mx-auto"></p>
+            <div class="mt-6">
+                <button id="lang-toggle" class="px-4 py-2 bg-[#EAE6E1] text-gray-700 font-semibold rounded-lg shadow-sm hover:bg-[#E59500] hover:text-white transition-colors duration-300">
+                    English
+                </button>
+            </div>
+        </header>
+
+        <!-- Combined Halving Section -->
+        <section id="halving-section-combined" class="mb-12 md:mb-20 rounded-2xl shadow-lg p-4 sm:p-6 md:p-8 text-center" style="background: linear-gradient(to bottom right, #FFFFFF, #FDFCFB);">
+            <!-- Chart part -->
+            <h2 data-key="halving_chart_title" class="text-2xl md:text-3xl font-bold text-center mb-2 text-gray-800"><span class="mr-2">&#x2692;</span></h2>
+            <p data-key="halving_chart_subtitle" class="text-center text-gray-500 mb-6 max-w-3xl mx-auto"></p>
+            
+            <!-- New Halving Summary Information -->
+            <div id="halving-summary" class="text-left text-gray-700 mb-8 mx-auto max-w-2xl">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+
+            <div class="chart-container h-80 md:h-96 mb-12">
+                <canvas id="halvingChart"></canvas>
+            </div>
+
+            <!-- Countdown part -->
+            <h2 data-key="halving_countdown_title" class="text-2xl md:text-3xl font-bold mb-4 text-gray-800"></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-4 bg-white rounded-lg shadow-sm">
+                    <p data-key="current_halving_reward_label" class="text-gray-600 text-sm md:text-base"></p>
+                    <p id="current-reward" class="text-2xl md:text-3xl font-bold text-[#E59500] mt-1"></p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm">
+                    <p data-key="next_halving_label" class="text-gray-600 text-sm md:text-base"></p>
+                    <p id="next-halving-number" class="text-2xl md:text-3xl font-bold text-[#E59500] mt-1"></p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-sm">
+                    <p data-key="next_halving_reward_label" class="text-gray-600 text-sm md:text-base"></p>
+                    <p id="next-reward" class="text-2xl md:text-3xl font-bold text-[#E59500] mt-1"></p>
+                </div>
+            </div>
+            <p data-key="countdown_label" class="text-lg md:text-xl font-semibold text-gray-700 mt-8 mb-4"></p>
+            <div id="countdown-timer" class="flex justify-center items-center space-x-4 text-gray-800">
+                <div class="flex flex-col items-center">
+                    <span id="days" class="text-3xl md:text-5xl font-bold text-[#E59500]">00</span>
+                    <span data-key="days_label" class="text-sm md:text-base text-gray-600"></span>
+                </div>
+                <span class="text-3xl md:text-5xl font-bold text-gray-400">:</span>
+                <div class="flex flex-col items-center">
+                    <span id="hours" class="text-3xl md:text-5xl font-bold text-[#E59500]">00</span>
+                    <span data-key="hours_label" class="text-sm md:text-base text-gray-600"></span>
+                </div>
+                <span class="text-3xl md:text-5xl font-bold text-gray-400">:</span>
+                <div class="flex flex-col items-center">
+                    <span id="minutes" class="text-3xl md:text-5xl font-bold text-[#E59500]">00</span>
+                    <span data-key="minutes_label" class="text-sm md:text-base text-gray-600"></span>
+                </div>
+                <span class="text-3xl md:text-5xl font-bold text-gray-400">:</span>
+                <div class="flex flex-col items-center">
+                    <span id="seconds" class="text-3xl md:text-5xl font-bold text-[#E59500]">00</span>
+                    <span data-key="seconds_label" class="text-sm md:text-base text-gray-600"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ATH Chart Section -->
+        <section id="ath-chart-section" class="mb-12 md:mb-20 bg-white rounded-2xl shadow-lg p-4 sm:p-6 md:p-8">
+            <h2 data-key="ath_chart_title" class="text-2xl md:text-3xl font-bold text-center mb-2 text-gray-800"></h2>
+            <p data-key="ath_chart_subtitle" class="text-center text-gray-500 mb-6"></p>
+            <div class="chart-container">
+                <canvas id="athChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline-section">
+            <h2 data-key="timeline_title" class="text-2xl md:text-3xl font-bold text-center mb-4 text-gray-800"></h2>
+            <p data-key="timeline_subtitle" class="text-center text-gray-500 mb-8"></p>
+
+            <!-- Filters -->
+            <div id="timeline-filters" class="flex flex-wrap justify-center gap-2 md:gap-4 mb-10">
+                <!-- Filter buttons will be inserted here by JS -->
+            </div>
+            
+            <!-- Timeline -->
+            <div id="timeline-container" class="relative">
+                <div class="timeline-line"></div>
+                <!-- Timeline items will be inserted here by JS -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-16 py-6 border-t border-gray-200">
+            <p data-key="footer_text" class="text-gray-500"></p>
+        </footer>
+
     </div>
-    <!-- Timeline -->
-    <h3 class="website-description" id="timeline-title"></h3>
-    <div class="timeline" id="timeline"></div>
-    <script src="script.js"></script>
-    <!-- Footer -->
-    <footer class="footer">
-        <p>You can contribute <a href="https://github.com/mikkipastel/bitcoin-odyssey" target="_blank">this project</a>.</p>
-    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
