@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         });
         document.documentElement.lang = currentLang;
         langToggle.textContent = currentLang === 'th' ? 'English' : 'ภาษาไทย';
-        document.title = currentLang === 'th' ? 'ไทม์ไลน์ประวัติศาสตร์ Bitcoin' : 'Bitcoin History Timeline';
+        document.title = currentLang === 'th' ? 'Bitcoin และการเดินทาง | ไทม์ไลน์ประวัติศาสตร์ Bitcoin' : 'Bitcoin Odyssey | Bitcoin History Timeline';
 
         // อัปเดต src ของรูปภาพแบนเนอร์ตามภาษา
         if (bannerImage) {
