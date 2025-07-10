@@ -117,10 +117,10 @@
   },
   {
     "year": 2025,
-    "price": 100000,
+    "price": 112000,
     "key_price_description": {
-      "th": "คาดการณ์การเติบโตต่อเนื่อง",
-      "en": "Hypothetical continued growth"
+      "th": "All-Time High ล่าสุด",
+      "en": "Latest All-Time High"
     }
   }
 ]

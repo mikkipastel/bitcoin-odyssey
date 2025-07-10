@@ -220,16 +220,16 @@
     }
   },
   {
-    "date": "2025-03-14",
+    "date": "2025-07-19",
     "type": "ath",
     "title": {
-      "th": "All-Time High ที่ $73,750 (ข้อมูลสมมติ)",
-      "en": "All-Time High at $73,750 (Hypothetical)"
+      "th": "All-Time High ที่ $112,000",
+      "en": "All-Time High at $112,000"
     },
     "description": {
-      "th": "จากแรงหนุนของกระแส ETF และหลังเหตุการณ์ Halving, Bitcoin ได้สร้างจุดสูงสุดใหม่ในปี 2025 ซึ่งแสดงให้เห็นถึงความเชื่อมั่นของตลาดที่แข็งแกร่ง (ข้อมูลนี้เป็นข้อมูลสมมติจากแนวโน้มในอดีต)",
-      "en": "Driven by ETF inflows and post-halving momentum, Bitcoin establishes a new peak in 2025, demonstrating strong market confidence. (Note: Data is hypothetical based on historical trends)"
+      "th": "Bitcoin ทะลุจุดสูงสุดใหม่ที่ $112,000 โดยได้รับแรงหนุนจากความต้องการของนักลงทุนที่เพิ่มขึ้นและการยอมรับจากสถาบัน",
+      "en": "Bitcoin surged to a new all-time high of $112,000, driven by growing investor appetite and strong institutional demand."
     },
-    "price": 73750
+    "price": 112000
   }
 ]
