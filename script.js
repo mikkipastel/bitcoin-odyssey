@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     // โดยประมาณ 4 ปีหลังจาก Halving ครั้งที่ 4
     const nextHalvingDate = new Date('2028-04-20T00:00:00Z'); // ใช้เวลา UTC เพื่อความแม่นยำ
 
-    const langToggle = document.getElementById('lang-toggle');
+    const langThBtn = document.getElementById('lang-th');
+    const langEnBtn = document.getElementById('lang-en');
     const timelineContainer = document.getElementById('timeline-container');
     const timelineFiltersContainer = document.getElementById('timeline-filters');
     const bannerImage = document.getElementById('banner'); // อ้างอิงถึง element รูปภาพแบนเนอร์
@@ -41,7 +42,6 @@ document.addEventListener('DOMContentLoaded', async function() {
             }
         });
         document.documentElement.lang = currentLang;
-        langToggle.textContent = currentLang === 'th' ? 'English' : 'ภาษาไทย';
         document.title = currentLang === 'th' ? 'Bitcoin และการเดินทาง | ไทม์ไลน์ประวัติศาสตร์ Bitcoin' : 'Bitcoin Odyssey | Bitcoin History Timeline';
 
         // อัปเดต src ของรูปภาพแบนเนอร์ตามภาษา
@@ -356,10 +356,38 @@ document.addEventListener('DOMContentLoaded', async function() {
         countdownInterval = setInterval(updateCountdown, 1000); // Update every second
     }
 
-    langToggle.addEventListener('click', () => {
-        currentLang = currentLang === 'th' ? 'en' : 'th';
+    // Move language switcher to the right and update color logic
+    const langSwitcher = document.querySelector('nav .flex.items-center');
+    if (langSwitcher) {
+        langSwitcher.classList.add('justify-end', 'w-full');
+        langSwitcher.classList.remove('space-x-2');
+    }
+    // Initial color set
+    function updateLangBtnColor() {
+        // Always reset both buttons first
+        langThBtn.classList.remove('text-[#E59500]', 'text-gray-400');
+        langEnBtn.classList.remove('text-[#E59500]', 'text-gray-400');
+        if (currentLang === 'th') {
+            langThBtn.classList.add('text-[#E59500]');
+            langEnBtn.classList.add('text-gray-400');
+        } else {
+            langEnBtn.classList.add('text-[#E59500]');
+            langThBtn.classList.add('text-gray-400');
+        }
+    }
+    // Add new language switch events
+    langThBtn.addEventListener('click', () => {
+        currentLang = 'th';
         initializeApp();
+        updateLangBtnColor();
     });
+    langEnBtn.addEventListener('click', () => {
+        currentLang = 'en';
+        initializeApp();
+        updateLangBtnColor();
+    });
+    // Set initial color on load
+    updateLangBtnColor();
 
     initializeApp();
 });
